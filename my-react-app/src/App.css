@@ -2,17 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   gap: 10px;
-
-}
-.wrapper button{
-  padding: 10px 15px;
-
-}
-button.plus{
-  background-color: green;
-}
-button.minus{
-  background-color: red;
 }
