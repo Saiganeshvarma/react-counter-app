@@ -1,7 +1,42 @@
-.wrapper{
+.body{
+  background-color: yellow;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+
+
+}
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
   gap: 10px;
+}
+
+.minus {
+  background-color: red;
+  padding: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.minus:hover {
+  background-color: darkred; /* Change background color on hover */
+}
+
+.plus {
+  background-color: yellow;
+  padding: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.plus:hover {
+  background-color: gold; /* Change background color on hover */
+}
+
+.clear {
+  background-color: aquamarine;
+}
+.para{
+  color: black;
 }
